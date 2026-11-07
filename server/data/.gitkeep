@@ -1,0 +1,2 @@
+# Keep this directory tracked in git while ignoring runtime db.json and test databases.
+

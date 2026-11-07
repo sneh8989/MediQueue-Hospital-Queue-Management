@@ -1,0 +1,21 @@
+{
+  "name": "hospital-queue-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Full-stack Hospital Queue Management System",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "lint:client": "npm run lint --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test:server": "npm test --prefix server",
+    "test:qa": "node qa/run-browser-tests.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}
